@@ -1,0 +1,36 @@
+$pink: #E91E63;
+$yel: #FFC107;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  header {
+    background: $pink;
+    h1 {
+      font-size: 40px;
+      color: white;
+      margin: 30px 0px;
+    }
+  }
+  .tictactoe {
+    margin-top: 50px;
+    .contenedor {
+      .row {
+        .cuadro {
+          text-align: center;
+          border: 1px solid $pink;
+          height: 100px;
+          span {
+            font-size: 60px;
+          }
+        }
+      }
+    }
+    .btn {
+      margin-top: 30px;
+      color: white;
+      background: $pink;
+    }
+  }
+
+}

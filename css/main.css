@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+  body header {
+    background: #E91E63; }
+    body header h1 {
+      font-size: 40px;
+      color: white;
+      margin: 30px 0px; }
+  body .tictactoe {
+    margin-top: 50px; }
+    body .tictactoe .contenedor .row .cuadro {
+      text-align: center;
+      border: 1px solid #E91E63;
+      height: 100px; }
+      body .tictactoe .contenedor .row .cuadro span {
+        font-size: 60px; }
+    body .tictactoe .btn {
+      margin-top: 30px;
+      color: white;
+      background: #E91E63; }
+
+/*# sourceMappingURL=main.css.map */
